@@ -1,0 +1,26 @@
+    #include <stdio.h>
+    #include <math.h>
+
+    double Power2(double a,double n){
+        int i=2;
+        double t=a;
+        for(i;i<=fabs(n);i++){
+            a*=t;
+        }
+        if(n>0){return a;}
+        if(n<0){return 1/a;}
+        if(n==0){return 1;}
+        
+    }
+
+    int main(){
+        double a,n;
+        printf("A=");
+        scanf("%lf",&a);
+        for(int i=1;i<=3;i++){
+            printf("N%d=",i);
+            scanf("%lf",&n);
+            printf("%.3lf^%.3lf=%.3lf\n",a,n,Power2(a,n));
+        }
+        return 0;
+    }
