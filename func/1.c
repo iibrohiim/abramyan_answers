@@ -1,6 +1,6 @@
     #include <stdio.h>
     #include <math.h>
-dd
+
     double powerA3(double a){
         return pow(a,3);
     }
