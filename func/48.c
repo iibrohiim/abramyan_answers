@@ -11,7 +11,9 @@ int EKUB(int a,int b){
     return a+b;
 }
 
-
+int EKUK(int a,int b){
+    return a*b/EKUB(a,b);
+}
 
 int main(){
     while(1){
@@ -20,7 +22,7 @@ int main(){
         scanf("%d",&a);
         printf("b=");
         scanf("%d",&b);
-        printf("EKUB=%d\n",EKUB(a,b));
+        printf("EKUK=%d\n",EKUK(a,b));
     }
     return 0;
 }
