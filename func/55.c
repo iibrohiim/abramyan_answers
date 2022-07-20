@@ -1,6 +1,6 @@
     #include <stdio.h>
     #include <stdbool.h>
-
+d
     bool IsLeapYear(int y);
     int monthDays(int m,int y);
     void NextDate(int *d,int *m,int *y){
