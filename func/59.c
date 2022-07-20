@@ -18,8 +18,8 @@ int main(){
         scanf("%lf,%lf",&xc,&yc);
         printf("P(x,y)=");
         scanf("%lf,%lf",&xp,&yp);
-        printf("D(P,AB)=%lf\n\n",dist(xa,ya,xb,yb,xp,yp));
-        printf("D(P,BC)=%lf\n\n",dist(xb,yb,xc,yc,xp,yp));
+        printf("D(P,AB)=%lf\n",dist(xa,ya,xb,yb,xp,yp));
+        printf("D(P,BC)=%lf\n",dist(xb,yb,xc,yc,xp,yp));
         printf("D(P,AC)=%lf\n\n",dist(xa,ya,xc,yc,xp,yp));
     }
 }
