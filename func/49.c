@@ -14,7 +14,7 @@ int EKUB(int a,int b){
 int EKUB3(int a,int b,int c){
    return EKUB(EKUB(a,b),c);
 }
-
+dddd
 int main(){
     while(1){
         int a,b,c;
